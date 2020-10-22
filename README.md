@@ -5,6 +5,16 @@ COMMAND: dotnet new sln [creates a solution]
 COMMAND: dotnet new classlib -n Domain [a template class library is created]
 COMMAND: dotnet new classlib -n Application
 COMMAND: dotnet new classlib -n Persistence
+COMMAND: dotnet new webapi -n API
+COMMAND: dotnet sln -h
+COMMAND: dotnet sln add Domain/ [to add the Domain folder to the sln]
+COMMAND: dotnet sln add Application/
+COMMAND: dotnet sln add Persistence/
+COMMAND: dotnet add reference ../Domain/ [The Application project depends on the Domain project so need to add a dependency]
+COMMAND: dotnet add reference ../Persistence/ [The Application project depends on the Persistence project so need to add a dependency]
+COMMAND: cd API/
+COMMAND: dotnet add reference ../Application/ [The API project depends on the Application project so need to add a dependency]
+COMMAND: dotnet add reference ../Domain/ [The Persistence project depends on the Domain project so need to add a dependency]
 
 .NET Core SDK (3.1.403)
 Usage: dotnet [runtime-options] [path-to-application] [arguments]
