@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/9gewt3T1hVrv6PKohj5M9j/6UuMxGr+ydtAdcfNfbMLeKjxq3De45u7avSqdZEoJykAXJ9dU1Knh5Xc70b32g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ALIA\\Documents\\ASP.NET Projects\\social_media\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ALIA\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ALIA\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

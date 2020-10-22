@@ -1,6 +1,10 @@
 COMMAND: dotnet --version
 COMMAND: dotnet --info
 COMMAND: dotnet -h
+COMMAND: dotnet new sln [creates a solution]
+COMMAND: dotnet new classlib -n Domain [a template class library is created]
+COMMAND: dotnet new classlib -n Application
+COMMAND: dotnet new classlib -n Persistence
 
 .NET Core SDK (3.1.403)
 Usage: dotnet [runtime-options] [path-to-application] [arguments]
